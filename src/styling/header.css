@@ -1,0 +1,87 @@
+.header{
+    position: fixed;
+    left: 0%;
+    top: 32px;
+    right: 0%;
+    bottom: auto;
+    z-index: 20;
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 72px;
+    padding-left: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    color: black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.navbar{
+        display: flex;
+        width: 60px;
+        height: 60px;
+        color: black;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#menu_checkbox {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease transform;
+    cursor: pointer;
+  }
+  
+  label div {
+    width: 6px;
+    height: 6px;
+    background-color: #143240;
+    margin-left: 0;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom,
+      0.3s ease background-color;
+  }
+  
+  label div:first-child {
+    width: 22px;
+  }
+  
+  label div:nth-child(2) {
+    width: 15px;
+  }
+  
+  label div:last-child {
+    width: 30px;
+    margin-bottom: 0;
+  }
+  
+  #menu_checkbox:checked + label {
+    transform: rotateZ(-90deg);
+  }
+  
+  #menu_checkbox:checked + label div {
+    width: 6px;
+    margin-left: 12px;
+    margin-bottom: 3px;
+    background-color: #ffc107;
+  }
+  

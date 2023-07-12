@@ -1,0 +1,76 @@
+.cards h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+text-align: start;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+.cards{
+    width: 60%;
+    background-color: #2d2f31;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    justify-content: space-around;
+    padding-top: 44px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+}
+.cardtext{
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+   .cards{
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    padding: 20px 20px;
+   } 
+   .cardtext{
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+}
+
+.cards h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(148, 152, 156);
+}
+
+.cards p{
+text-align: start;
+}
+
+.cardbutton{
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.cardbutton a{
+    text-decoration: none;
+    color: black;
+}
+.cardspacing{
+    height: 15px;
+    width: 2px;
+}
+
+.cardimage img{
+    width: 379px;
+    height: 341px;
+    position: relative;
+    object-position:top;
+    bottom: -7px;
+    object-fit: cover;
+}
+

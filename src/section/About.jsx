@@ -7,7 +7,7 @@ function About() {
         <h1>Who I am</h1>
       </div>
       <div className="aboutdata">
-        <p>Welcome to my portfolio! I'm [Your Name], a passionate web developer with expertise in HTML5, CSS, JavaScript, ReactJS, and WordPress. I'm excited to start my career after completing my BCA course. <br /><br />
+        <p>Welcome to my portfolio! I'm Sarthak Mittal, a passionate web developer with expertise in HTML5, CSS, JavaScript, ReactJS, and WordPress. I'm excited to start my career after completing my BCA course. <br /><br />
 
 I specialize in creating visually captivating and user-friendly websites. With a keen eye for detail, I have successfully completed projects ranging from responsive e-commerce sites to custom portfolio websites. <br /><br />
 

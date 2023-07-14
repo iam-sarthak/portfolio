@@ -2,7 +2,7 @@
     font-family: Inter, sans-serif;
   /* margin: 0;
   padding: 0; */
-  box-sizing: border-box !important;
+  /* box-sizing: border-box !important; */
 }
 html, body{
   height: 100%;}
@@ -33,4 +33,6 @@ p{
   line-height: 150%;
   text-align: center;
 }
+
+
 

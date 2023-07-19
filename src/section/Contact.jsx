@@ -9,10 +9,10 @@ function Contact() {
     <h1>Contact <br /> Me</h1>
     <div className="fields">
         <ul>
-            <li><a href="http://">sarmittal@gmail.com</a></li>
-            <li><a href="http://">Twitter</a></li>
-            <li><a href="http://">linkedIn</a></li>
-            <li><a href="http://">GitHub</a></li>
+            <li><a href="mailto:sarmittal@gmail.com">sarmittal@gmail.com</a></li>
+            <li><a href="https://twitter.com/sarmittal">Twitter</a></li>
+            <li><a href="https://github.com/iam-sarthak">linkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/sarthak-mittal-/">GitHub</a></li>
         </ul>
     </div>
 </div>

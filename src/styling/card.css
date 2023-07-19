@@ -67,7 +67,7 @@ text-align: start;
 
 .cardimage img{
     max-width: fit-content;
-    /* width: 379px; */
+    width: 379px;
     height: 341px;
     position: relative;
     object-position:top;

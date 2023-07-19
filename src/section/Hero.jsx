@@ -5,7 +5,7 @@ import HeroBackground from "../components/HeroBackground";
 
 
 function Hero() {
-    return <div>
+    return <div id="hero">
         <HeroBackground />
         <HeroContent />
     </div>

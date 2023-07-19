@@ -4,7 +4,7 @@ import "../styling/card.css";
 import "../styling/contact.css";
 
 function Contact() {
-    return <div className="contact">
+    return <div className="contact" id="contact">
 <div className="contactdata">
     <h1>Contact <br /> Me</h1>
     <div className="fields">
